@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #e94560;
+}
+
+header p {
+    font-size: 1.1rem;
+    color: #b2bec3;
+}
+
+.link-voltar {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #e94560;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+/* Home / Apresentação */
+.apresentacao-loja, .vitrine-destaque {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.galeria-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain; /* Ajustado para não cortar a imagem */
+    background-color: #f9f9f9;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+}
+
+.botao-acao-container {
+    text-align: center;
+    margin: 2.5rem 0;
+}
+
+.btn-navegar {
+    background-color: #e94560;
+    color: white;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background 0.3s;
+}
+
+.btn-navegar:hover {
+    background-color: #d83a52;
+}
+
+/* Cards de Produtos da Loja */
+.produtos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.produto-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    border-top: 4px solid #e94560;
+}
+
+.produto-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain; /* Ajustado para mostrar a imagem inteira sem cortes */
+    background-color: #f9f9f9; /* Fundo leve para preencher espaços vazios */
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.produto-card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a2e;
+}
+
+.produto-card p {
+    font-size: 0.9rem;
+    color: #636e72;
+    margin-bottom: 1rem;
+}
+
+.preco {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #00b894 !important;
+}
+
+/* Caixa de Quantidade nos Cards */
+.quantidade-box {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.quantidade-box label {
+    font-weight: bold;
+    color: #1a1a2e;
+    font-size: 0.9rem;
+}
+
+.input-qtd {
+    width: 60px;
+    padding: 0.4rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Simulação / Finalização */
+.simulacao-box {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+button {
+    background-color: #e94560;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: #d83a52;
+}
+
+footer {
+    background-color: #1a1a2e;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
