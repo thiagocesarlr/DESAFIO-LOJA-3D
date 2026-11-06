@@ -31,7 +31,12 @@ A **ThiKaPrint 3D** é uma loja fictícia especializada na venda de itens decora
 3. Abra o arquivo `index.html` em qualquer navegador web para iniciar pela página de apresentação.
 
 ## Captura de Tela
-*(Adicione aqui um print da tela da sua loja ou da página de produtos)*
+<img width="1360" height="689" alt="image" src="https://github.com/user-attachments/assets/eb88af8f-0c81-4255-b523-71bc31946f83" />
+<img width="1366" height="686" alt="image" src="https://github.com/user-attachments/assets/7ee001e2-ea20-493c-83cc-9b3baf9fbdbe" />
+<img width="1366" height="684" alt="image" src="https://github.com/user-attachments/assets/7441d7dd-91d0-4718-aa16-dcf38c746ff2" />
+
+
+
 
 ## Testes Realizados
 - **Teste 1:** Acesso à página inicial e navegação fluida até o catálogo de compras.
