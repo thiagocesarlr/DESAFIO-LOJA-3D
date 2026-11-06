@@ -1,8 +1,8 @@
-# Desafio 1 — Minha Loja: Simulador de Compras (PolyPrint 3D)
+# Desafio 1 — Minha Loja: Simulador de Compras (ThiKaPrint 3D)
 
 ## Identificação
 - **Projeto:** PolyPrint 3D (E-commerce de Impressão 3D)
-- **Aluno(a):** [Seu Nome Completo]
+- **Aluno(a):** Thiago César Lima Rocha
 - **Trilha:** Trilha Inova Maranhão — Desenvolvimento Mobile
 
 ## Apresentação da Loja
